@@ -6,7 +6,6 @@ function LoggedUserPrivateRoute({component: RouteComponent}) {
 
     return (
         <Route
-
             render={() =>
                 firebase.auth().currentUser ? (
                     <Redirect

@@ -1,6 +1,7 @@
 import React from 'react';
 import {withRouter, Link} from 'react-router-dom';
 import {firebase} from '../../firebase';
+import SignUp from "./SignUp";
 
 class Login extends React.Component{
     constructor(props){
@@ -56,6 +57,7 @@ class Login extends React.Component{
                     <button className="general-submit">Log in</button>
                     <p>Don't have an account yet? <Link className="login-btn" to="/register">Register here</Link></p>
                 </form>
+                <SignUp />
             </div>
         );
     }

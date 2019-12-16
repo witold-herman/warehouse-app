@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Nav, Navbar, NavDropdown, FormControl, Form, Button} from 'react-bootstrap';
 import SignOut from "./Logout";
-import {UserContext} from '../../UserContext';
+import {UserContext} from '../../context/UserContext';
+
+
 
 export const NavigationBar = () => {
 
