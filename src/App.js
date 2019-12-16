@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import './App.css';
-import {NavigationBar} from "./components/layout/NavigationBar";
 import Login from './components/layout/Login';
 import {firebase} from './firebase.js'
 import PrivateRoute from './PrivateRoute';
 import LoggedUserPrivateRoute from "./components/LoggedUserPrivateRoute";
-import {UserContext} from "./UserContext";
+import {UserContext} from "./context/UserContext";
+import {Content} from "./components/layout/Content";
 
 
 export const App = (() => {
@@ -27,7 +27,7 @@ export const App = (() => {
                 <UserContext.Provider value={user}>
                     <div className="app">
                         <Switch>
-                            <PrivateRoute path="/" exact component={NavigationBar}/>
+                            <PrivateRoute path="/" exact component={Content}/>
                             <LoggedUserPrivateRoute path="/login" exact component={Login}/>
                             <Route component={NoMatch}/>
                         </Switch>
