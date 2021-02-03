@@ -1,0 +1,177 @@
+.fixed-width {
+  width: 33.3%;
+}
+
+.button-red {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  border-radius: 34px;
+  text-align: center;
+  margin: auto auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s;
+  background-color: #bd110b;
+}
+.button-red:hover {
+  background-color: #f7110a;
+}
+
+.button-green {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  border-radius: 34px;
+  text-align: center;
+  margin: auto auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s;
+  background-color: #14913a;
+}
+.button-green:hover {
+  background-color: #16db52;
+}
+
+.input-standard {
+  border: 2px solid #454d55;
+  background-color: #343a40;
+  border-radius: 34px;
+  color: white;
+  transition: 0.25s;
+  width: 25%;
+}
+.input-standard:focus {
+  background-color: #454d55;
+  width: 35%;
+  border-color: #343a40;
+}
+
+.button-white {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  border-radius: 34px;
+  text-align: center;
+  margin: auto auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s;
+  background: none;
+  color: white;
+}
+
+.button-green-wide {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  border-radius: 34px;
+  text-align: center;
+  margin: auto auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s;
+  background-color: #14913a;
+  width: 25%;
+  margin: 12px auto;
+}
+.button-green-wide:hover {
+  background-color: #16db52;
+}
+
+.button-logout {
+  display: block;
+  color: white;
+  border: 2px solid white;
+  border-radius: 34px;
+  text-align: center;
+  margin: auto auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.25s;
+  background-color: cornflowerblue;
+  border: 2px solid white;
+  color: white;
+}
+
+h3 {
+  color: cornflowerblue;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.select {
+  background: none;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 24px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  transition: 0.25s;
+}
+.select:focus {
+  width: 250px;
+}
+
+.select-centered {
+  background: none;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 24px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  transition: 0.25s;
+  display: block;
+  margin: 3px auto;
+}
+.select-centered:focus {
+  width: 250px;
+}
+
+.separator-div {
+  width: 100%;
+  height: 2px;
+  background-color: cornflowerblue;
+  margin: 10px 0;
+}
+
+.centered-h1 {
+  text-align: center;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.sort-icon:hover {
+  cursor: pointer;
+}
+
+.navbar-hover:hover {
+  text-decoration: underline !important;
+}
+
+.input-centered-block {
+  border: 2px solid #454d55;
+  background-color: #343a40;
+  border-radius: 34px;
+  color: white;
+  transition: 0.25s;
+  width: 25%;
+  margin: 3px auto;
+  display: block;
+}
+.input-centered-block:focus {
+  background-color: #454d55;
+  width: 35%;
+  border-color: #343a40;
+}
+
+.radio-margin {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=content.css.map */
